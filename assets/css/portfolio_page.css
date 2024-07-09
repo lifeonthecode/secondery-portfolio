@@ -1,0 +1,28 @@
+.portfolio_section {
+    padding: 2.5rem 0rem;
+    background-color: #f9f9f9;
+}
+
+
+
+.portfolio_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio_wrapper h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--color_black);
+    text-transform: capitalize;
+    margin: .8rem 0rem;
+}
+
+.portfolio_wrapper a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--btn_color);
+    text-transform: capitalize;
+    border-bottom: 1px solid var(--btn_color);
+}
